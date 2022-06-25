@@ -183,7 +183,7 @@ const Navbar = () => {
                         onClick={closeNavbar}
                       >
                         <div className="flex items-center">
-                          <BsGear className="text-xl text-white mr-2" />
+                          <BsStack className="text-xl text-white mr-2" />
                           Products
                         </div>
                         <svg
@@ -208,7 +208,7 @@ const Navbar = () => {
                         onClick={closeNavbar}
                       >
                         <div className="flex items-center">
-                          <FaRegHandshake className="text-xl text-white mr-2" />
+                          <ImUsers className="text-xl text-white mr-2" />
                           Clients
                         </div>
                         <svg
@@ -232,7 +232,7 @@ const Navbar = () => {
                         className="flex items-center px-6 py-3 hover:bg-blue-600"
                         onClick={closeNavbar}
                       >
-                        <AiOutlineTool className="text-2xl text-white mr-2" />{' '}
+                        <BsFillCalendarPlusFill className="text-2xl text-white mr-2" />{' '}
                         Services
                       </a>
                     </Link>
@@ -241,7 +241,7 @@ const Navbar = () => {
                         className="flex items-center px-6 py-3 hover:bg-blue-600"
                         onClick={closeNavbar}
                       >
-                        <MdCall className="text-2xl mr-2" /> Contact{' '}
+                        <MdCall className="text-2xl mr-2" /> Contact
                       </a>
                     </Link>
                   </nav>
